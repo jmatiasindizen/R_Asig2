@@ -1,7 +1,6 @@
 ## This code allow calculate inverse matrix of a input bidimensional 
 ## using cached values if is possible
 
-
 ## makeCacheMatrix takes a bidimensional matrix and returns a vector
 ## containing set, get, setinverse and getinverse functions
 
