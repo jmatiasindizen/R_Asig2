@@ -1,7 +1,8 @@
 ## Put comments here that give an overall description of what your
 ## functions do
 
-## Write a short comment describing this function
+## makeCacheMatrix takes a bidimensional matrix and returns a vector
+## containing set, get, setinverse and getinverse
 
 makeCacheMatrix <- function(x = matrix()) {
   m <- NULL
@@ -18,7 +19,8 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
+## cacheSolve takes a vector like makeCacheMatrix funcitons returns
+## and return inverse matrix using cached value if is possible
 
 cacheSolve <- function(x, ...) {
   m <- x$getinverse()
