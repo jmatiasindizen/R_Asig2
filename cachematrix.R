@@ -1,8 +1,9 @@
-## Put comments here that give an overall description of what your
-## functions do
+## This code allow calculate inverse matrix of a input bidimensional 
+## using cached values if is possible
+
 
 ## makeCacheMatrix takes a bidimensional matrix and returns a vector
-## containing set, get, setinverse and getinverse
+## containing set, get, setinverse and getinverse functions
 
 makeCacheMatrix <- function(x = matrix()) {
   m <- NULL
@@ -20,7 +21,8 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 ## cacheSolve takes a vector like makeCacheMatrix funcitons returns
-## and return inverse matrix using cached value if is possible
+## and return inverse matrix of input argument, using cached value 
+## if is possible
 
 cacheSolve <- function(x, ...) {
   m <- x$getinverse()
